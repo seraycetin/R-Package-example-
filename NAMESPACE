@@ -1,0 +1,2 @@
+useDynLib(newPackage, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
