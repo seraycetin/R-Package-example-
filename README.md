@@ -1,2 +1,1 @@
-## Building an R Package with Fortran (or C)
-# Einleitung
+# Building an R Package with Fortran (or C)
