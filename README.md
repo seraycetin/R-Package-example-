@@ -110,7 +110,7 @@ In der ersten Funktion R_CallMethodDef werden alle Funktionen/Methoden definiert
 Übrig bleiben nur noch die Dokumentationen der einzelnen Funktionen und das Ausfüllen der DESCRIPTION- und der NAMESPACE-Datei. Beim NAMESPACE ist es wichtig folgende Zeile einzufügen, wenn die Registration in C erfolgen soll: useDynLib(newPackage, .registration=TRUE) Weiters können zus ätzlich die README, die NEWS und die LICENSE Dateien hinzugefügt bzw. bearbeitet werden. [Adl18]
 
 ## Conclusio
-Ein Package in R zu implementieren, welches auch Fortran-Code enthält, ist nicht so kompliziert, wie es am Anfang erscheint. Das Beispiel zusammengefasst haben wir haben eine R-Funktion, die eine C-Funktion aufruft, die wiederum eine andere C-Funktion aufruft, welches den Fortran Code ausführt. Zwischen R und Fortran steht C, welches mit beiden Programmiersprachen Problemlos kommunizieren kann. Der Sinn des Ganzen ist es die Stärken und Vorteile von C und Fortran für die Berechnungen in R auszunutzen.
+Ein Package in R zu implementieren, welches auch Fortran-Code enthält, ist nicht so kompliziert, wie es am Anfang erscheint. Das Beispiel zusammengefasst haben wir eine R-Funktion, die eine C-Funktion aufruft, die wiederum eine andere C-Funktion aufruft, welches den Fortran Code ausführt. Zwischen R und Fortran steht C, welches mit beiden Programmiersprachen Problemlos kommunizieren kann. Der Sinn des Ganzen ist es die Stärken und Vorteile von C und Fortran für die Berechnungen in R auszunutzen.
 
 # Literatur
 [Adl18] Adler, Avraham: The Need for Speed Part 1: Building an R Package with Fortran (or C). https://www.avrahamadler.com/2018/12/09/ the-need-for-speed-part-1-building-an-r-package-with-fortran/. Version: 2018
