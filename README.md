@@ -2,7 +2,7 @@
 ## Einleitung
 Allgemein beim Programmieren werden Funktionen implementiert, deren Aufgaben es sind immer wieder benötigte Codezeilen nicht doppelt oder dreifach abzutippen. Der Programmierer erleichtert sich mit den Funktionen seine Arbeit indem er sie nur noch aufrufen muss (eine Zeile statt vielleicht 10). Bei größeren Programmen bzw. Projekten kann es schnell passieren, die Übersicht der Funktionen zu verlieren.
 
-Eine Lösung für dieses Problem beziehungsweise ein eleganterer Weg wäre es ein eigenes Package zu erstellen bzw. zu implementieren, indem alle persönlichen Funktionen des Programmierers, die er/sie immer wieder für seine Projekte verwendet, gesammelt werden. Die Vorteile eines selbst erstellten Package sind: [Sch13]
+Eine Lösung für dieses Problem beziehungsweise ein eleganterer Weg wäre es ein eigenes Package zu erstellen bzw. zu implementieren, indem alle persönlichen Funktionen des Programmierers, die er immer wieder für seine Projekte verwendet, gesammelt werden. Die Vorteile eines selbst erstellten Package sind: [Sch13]
 
 * Einmaliges implementieren
 * immer wieder verwendbare Methoden
